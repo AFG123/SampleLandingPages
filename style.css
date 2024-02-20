@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.sidebar{
+    /* background-color: red; */
+    background-color: grey;
+    width: 380px;
+    font-family: 'Fira Sans', sans-serif;
+    height: 131vh;
+}
+.sidebar nav{
+padding: 48px;
+}
+
+.sidebar nav li{
+list-style: none;
+font-size: 27px;
+padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+}
+.infoContainer{
+    /* background-color: rgb(202,9,128); */
+    height: 65vh;
+    width: 150vh;
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello{
+    font-size: 65px;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+}
+.about{
+    font-size: 30px;
+}
+.moreabout{
+    font-size: 22px;
+    margin-top: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.buttons{
+    margin-top: 20px;
+}
+
+.buttons button{
+    padding: 8px 11px;
+    border-radius: 20px;
+    color: whitesmoke;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0 2px;
+}
+.buttons button:hover{
+    background-color: black;
+    color: dodgerblue;
+}
+.devPic img{
+    /* width: 407px; */
+    height: 65vh;
+}
+
+/* Contact.html */
+
+.contactform{
+    padding: 0 34px;
+    padding-top: 170px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.contactform h2{
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contactform form div{
+    padding: 4px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 13px;
+    color: forestgreen;
+    margin: 0 3px;
+}
+.contactform form button{
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 8px;
+    background-color: dodgerblue;
+}
+.contactform form button:hover{
+    background-color: black;
+    color: dodgerblue;
+}
+#enq{
+    width: 16vw;
+    height: 4vw;
+    margin-top: 10px;
+}
+
+/* About Page */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 2vw;
+    font-size: 60px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.Info{
+    background-color: #95b0bcab;
+    border-radius: 15px; /* Adjust the value to change the roundness */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    margin: 110px auto;
+}
+.Info p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+}
+
+.myskills{
+    text-align: center;
+    background-color: powderblue;
+    margin: 175px;
+    padding: 2vw;
+    margin-top: 2vw;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+}
+  
+
